@@ -1,0 +1,77 @@
+<!-- CSS DataTable -->
+<link href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.bootstrap5.min.css" rel="stylesheet" type="text/css">
+
+<link href="https://cdn.datatables.net/searchbuilder/1.1.0/css/searchBuilder.dataTables.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.datatables.net/datetime/1.1.0/css/dataTables.dateTime.min.css" rel="stylesheet" type="text/css">
+
+<!-- CSS Style -->
+<style>
+.body {
+  font-family: 'font-family', sans-serif;
+}
+
+@font-face {
+  font-family: 'Initial';
+}
+body { font-family: 'Initial' !important; }
+
+
+:root {
+  --padding: 0.6rem 1.2rem;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.accordion {
+  margin: 3rem auto;
+  margin-top: 20px;
+}
+.accordion__item {
+  margin: 0 auto;
+  border-top: 2px solid #555;
+  /* padding: .6rem 1.2rem; */
+  /* text-align: center; */
+  width: 95%;
+}
+.accordion__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding);
+  background: #ebebeb;
+
+  cursor: pointer;
+}
+.accordion__icon {
+  border: 0.5rem solid transparent;
+  border-top-color: #333;
+  transform: translateY(25%);
+  transform-origin: center 37.5%;
+  transition: 0.4s all ease;
+}
+.accordion__icon--turn {
+  transform: rotate(180deg);
+}
+
+.accordion__details {
+  max-height: 0;
+  background: rgba(207, 207, 207, 0.219);
+
+  overflow: hidden;
+
+  transition: 0.4s all ease;
+}
+.accordion__details > p {
+  padding: var(--padding);
+}
+
+
+</style>
